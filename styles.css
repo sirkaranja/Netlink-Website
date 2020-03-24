@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  font-family: "Lato";
+  scroll-behavior: smooth;
+}
+body {
+  display: block;
+}
+#home {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("about-us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navbar {
+  background: -webkit-linear-gradient(to right, #f64f59, #201f20, #dde02f);
+  background: linear-gradient(to right, #f64f59, #201f20, #dde02f);
+  font-size: 18px;
+  text-decoration: none;
+  position: fixed;
+  width: 100%;
+}
+nav > ul {
+  text-align: right;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 25px;
+  margin-right: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: rgba(255, 255, 255);
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+  padding-left: 200px;
+}
+nav > ul > li > a:hover {
+  border-bottom: 3px solid #f64f59;
+  color: #ffffff;
+}
+#home-text {
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#home h1 {
+  padding-top: 15%;
+  /* padding-left: 1.5%; */
+  color: #ffffff;
+  font-size: 56px;
+  padding-bottom: 70px;
+}
+#link-services {
+  text-decoration: none;
+  border: 1px solid rgb(84, 184, 71);
+  background-color: rgb(45, 168, 72);
+  color: #ffffff;
+  padding: 12px 55px 12px 55px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-left: 40%;
+}
+/* styles for buying section */
+#deals {
+  text-align: center;
+  color: rgb(44, 44, 44);
+}
+
+
+#service {
+  padding-bottom: 72px;
+}
+#contact-section {
+  padding-bottom: 50px;
+}
+
+#buy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+}
+.packages {
+  background-image: url("char.jpg");
+  padding-top: 40px;
+  height: 420px;
+  width: 275px;
+  box-shadow: 5px 5px 5px grey;
+  border: 1px solid #d4d4d4;
+  margin: 12px 8px 15px;
+}
+.packages > img {
+  height: 250px;
+}
+.pack-desc {
+  text-align: center;
+}
+
+
+
+#c-buy {
+  text-align: center;
+  padding: 10px 0 20px 0;
+  color: rgb(207, 197, 52);
+}
+
+span {
+  color:  rgb(207, 197, 52);
+}
+
+
+/* styling for services section  */
+#services {
+  font-size: 18px;
+}
+
+#services h1 {
+  text-align: center;
+  color:#f64f59;
+  /* margin-top: 75px; */
+}
+.other-services {
+  width: 55%;
+  margin: auto;
+}
+#computer-sales > img {
+  height: 150px;
+  padding-left: 15%;
+  float: left;
+  margin-right: 60px;
+}
+footer
+
+/* style for the contact section */
+#contact {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.contact-form {
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+  margin: 10px;
+  border: 1px solid #d4d4d4;
+}
+.contact-form h3 {
+  color:  rgb(207, 197, 52);
+}
+#c-header {
+  text-align: center;
+  color:  rgb(207, 197, 52);
+}
+.contact-form h3 {
+  text-align: center;
+  padding-top: 10px;
+}
+form {
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+}
+.btn {
+  background-color: rgb(207, 197, 52);
+  margin: 10px 0 10px 75px;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+input {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #4d4d4d;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-decoration: none;
+}
+#submit {
+  width: 45%;
+  margin-left: 20%;
+  margin-top: 20px;
+  border: 1px solid #f64f59;
+  background-color: #f64f59;
+  color: #ffffff;
+}
+select {
+  width: 100%;
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-decoration: none;
+}
+form > p {
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
+[placeholder~="Enter"] {
+  padding-left: 15px;
+}
+[placeholder~="Brief"] {
+  padding-left: 20px;
+  font-size: 18x;
+}
+
+option {
+  padding-left: 20px;
+}
+footer {
+  width: 100%;
+  height: 30vh;
+  background-color: #f64f59;
+}
+footer > p {
+  text-align: center;
+  padding-top: 10px;
+}
+.social-media {
+  text-align: center;
+  padding-top: 30px;
+}
+.fa {
+  font-size: 24px;
+  color: #f64f59;
+  padding: 20px;
+}
+/* media queries */
+@media only screen and (max-width: 480px) {
+  #navbar {
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    overflow: auto;
+    background-color: #f64f59;
+  }
+  ul > li {
+    display: block;
+    padding: 10px;
+  }
+  #home-link {
+    padding-left: 10px;
+  }
+  .contact-form {
+    width: 95%;
+  }
+  form {
+    padding: 8px;
+  }
+  #submit {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #f64f59;
+  }
+  footer > p {
+    text-align: center;
+    padding-top: 80px;
+  }
+   
+  #home-text h1 {
+    padding-top: 15%;
+    /* padding-left: 2.5%; */
+    font-size: 35px;
+    padding-bottom: 40px;
+  }
+  #home-text {
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    /* text-align: center; */
+  }
+  #contact {
+    display: block;
+  }
+  #btn {
+    padding-right: 80px;
+  }
+}
+/* media query for screen with max with of 768px */
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 1125px) {
+  .contact-form {
+    width: 90%;
+    margin-top: 20px;
+  }
+  #contact {
+    display: block;
+    flex-direction: row;
+    margin: 50px;
+ 
+}
+@media only screen and (max-width: 840px) {
+  #navbar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 625px) {
+  #home-text h1 {
+    padding-top: 15%;
+    padding-left: 5%;
+    color: #ffffff;
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #link-services {
+    text-decoration: none;
+    border: 1px solid#f64f59;
+    background-color:#f64f59;
+    color: #ffffff;
+    padding: 12px 55px 12px 55px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-left: 10%;
+  }
+  #home-text h1 {
+    padding-top: 15%;
+    padding-left: 2.5%;
+    color: #ffffff;
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+}
+}
